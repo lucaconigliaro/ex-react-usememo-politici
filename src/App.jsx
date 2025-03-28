@@ -9,7 +9,6 @@ function App() {
     const resp = await fetch(baseUrl);
     const data = await resp.json();
     setPolitician(data);
-    console.log(data);
   }
 
   useEffect(() => {
